@@ -60,14 +60,9 @@
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="DatabaseModels\Carrots\" />
-	  <Folder Include="DatabaseModels\Onion\" />
-	  <Folder Include="DatabaseModels\Tomatoe\" />
-	  <Folder Include="DatabaseModels\Potatoe\" />
-	  <Folder Include="DatabaseModels\Spinach\" />
+		<PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
+		<PackageReference Include="SQLiteNetExtensions" Version="2.1.0" />
+		<PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.8" />
 	</ItemGroup>
 
 </Project>
